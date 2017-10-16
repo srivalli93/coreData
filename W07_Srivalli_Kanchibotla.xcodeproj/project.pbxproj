@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E17AA3C1DB7152D006D26AC /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17AA381DB7152D006D26AC /* Course+CoreDataClass.swift */; };
+		4E17AA3D1DB7152D006D26AC /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17AA391DB7152D006D26AC /* Course+CoreDataProperties.swift */; };
+		4E17AA3E1DB7152D006D26AC /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17AA3A1DB7152D006D26AC /* Student+CoreDataClass.swift */; };
+		4E17AA3F1DB7152D006D26AC /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17AA3B1DB7152D006D26AC /* Student+CoreDataProperties.swift */; };
+		4E17AA411DB7209A006D26AC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17AA401DB7209A006D26AC /* TableViewController.swift */; };
 		4E2813CF1DB1796E0037DE59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2813CE1DB1796E0037DE59 /* AppDelegate.swift */; };
-		4E2813D11DB1796E0037DE59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2813D01DB1796E0037DE59 /* ViewController.swift */; };
-		4E2813D41DB1796E0037DE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2813D21DB1796E0037DE59 /* Main.storyboard */; };
 		4E2813D71DB1796E0037DE59 /* W07_Srivalli_Kanchibotla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2813D51DB1796E0037DE59 /* W07_Srivalli_Kanchibotla.xcdatamodeld */; };
 		4E2813D91DB1796E0037DE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2813D81DB1796E0037DE59 /* Assets.xcassets */; };
 		4E2813DC1DB1796E0037DE59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2813DA1DB1796E0037DE59 /* LaunchScreen.storyboard */; };
 		4E2813E71DB1796E0037DE59 /* W07_Srivalli_KanchibotlaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2813E61DB1796E0037DE59 /* W07_Srivalli_KanchibotlaTests.swift */; };
 		4E2813F21DB1796E0037DE59 /* W07_Srivalli_KanchibotlaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2813F11DB1796E0037DE59 /* W07_Srivalli_KanchibotlaUITests.swift */; };
+		4E2814051DB182840037DE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2814031DB182840037DE59 /* Main.storyboard */; };
+		4EA461DE1DB6A604007F82FA /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA461DD1DB6A604007F82FA /* StudentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E17AA381DB7152D006D26AC /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E17AA391DB7152D006D26AC /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E17AA3A1DB7152D006D26AC /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E17AA3B1DB7152D006D26AC /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E17AA401DB7209A006D26AC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4E2813CB1DB1796E0037DE59 /* W07_Srivalli_Kanchibotla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W07_Srivalli_Kanchibotla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2813CE1DB1796E0037DE59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E2813D01DB1796E0037DE59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4E2813D31DB1796E0037DE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E2813D61DB1796E0037DE59 /* W07_Srivalli_Kanchibotla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = W07_Srivalli_Kanchibotla.xcdatamodel; sourceTree = "<group>"; };
 		4E2813D81DB1796E0037DE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E2813DB1DB1796E0037DE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		4E2813ED1DB1796E0037DE59 /* W07_Srivalli_KanchibotlaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W07_Srivalli_KanchibotlaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2813F11DB1796E0037DE59 /* W07_Srivalli_KanchibotlaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W07_Srivalli_KanchibotlaUITests.swift; sourceTree = "<group>"; };
 		4E2813F31DB1796E0037DE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2814041DB182840037DE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EA461DD1DB6A604007F82FA /* StudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,10 @@
 		4E2813C21DB1796E0037DE59 = {
 			isa = PBXGroup;
 			children = (
+				4E17AA381DB7152D006D26AC /* Course+CoreDataClass.swift */,
+				4E17AA391DB7152D006D26AC /* Course+CoreDataProperties.swift */,
+				4E17AA3A1DB7152D006D26AC /* Student+CoreDataClass.swift */,
+				4E17AA3B1DB7152D006D26AC /* Student+CoreDataProperties.swift */,
 				4E2813CD1DB1796E0037DE59 /* W07_Srivalli_Kanchibotla */,
 				4E2813E51DB1796E0037DE59 /* W07_Srivalli_KanchibotlaTests */,
 				4E2813F01DB1796E0037DE59 /* W07_Srivalli_KanchibotlaUITests */,
@@ -99,13 +113,14 @@
 		4E2813CD1DB1796E0037DE59 /* W07_Srivalli_Kanchibotla */ = {
 			isa = PBXGroup;
 			children = (
+				4E2814031DB182840037DE59 /* Main.storyboard */,
 				4E2813CE1DB1796E0037DE59 /* AppDelegate.swift */,
-				4E2813D01DB1796E0037DE59 /* ViewController.swift */,
-				4E2813D21DB1796E0037DE59 /* Main.storyboard */,
 				4E2813D81DB1796E0037DE59 /* Assets.xcassets */,
 				4E2813DA1DB1796E0037DE59 /* LaunchScreen.storyboard */,
 				4E2813DD1DB1796E0037DE59 /* Info.plist */,
 				4E2813D51DB1796E0037DE59 /* W07_Srivalli_Kanchibotla.xcdatamodeld */,
+				4EA461DD1DB6A604007F82FA /* StudentTableViewController.swift */,
+				4E17AA401DB7209A006D26AC /* TableViewController.swift */,
 			);
 			path = W07_Srivalli_Kanchibotla;
 			sourceTree = "<group>";
@@ -235,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2814051DB182840037DE59 /* Main.storyboard in Resources */,
 				4E2813DC1DB1796E0037DE59 /* LaunchScreen.storyboard in Resources */,
 				4E2813D91DB1796E0037DE59 /* Assets.xcassets in Resources */,
-				4E2813D41DB1796E0037DE59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2813D11DB1796E0037DE59 /* ViewController.swift in Sources */,
+				4E17AA3C1DB7152D006D26AC /* Course+CoreDataClass.swift in Sources */,
 				4E2813CF1DB1796E0037DE59 /* AppDelegate.swift in Sources */,
+				4E17AA3F1DB7152D006D26AC /* Student+CoreDataProperties.swift in Sources */,
+				4E17AA411DB7209A006D26AC /* TableViewController.swift in Sources */,
 				4E2813D71DB1796E0037DE59 /* W07_Srivalli_Kanchibotla.xcdatamodeld in Sources */,
+				4E17AA3E1DB7152D006D26AC /* Student+CoreDataClass.swift in Sources */,
+				4EA461DE1DB6A604007F82FA /* StudentTableViewController.swift in Sources */,
+				4E17AA3D1DB7152D006D26AC /* Course+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +320,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4E2813D21DB1796E0037DE59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E2813D31DB1796E0037DE59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4E2813DA1DB1796E0037DE59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E2813DB1DB1796E0037DE59 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4E2814031DB182840037DE59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2814041DB182840037DE59 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -509,6 +529,7 @@
 				4E2813F81DB1796E0037DE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2813F91DB1796E0037DE59 /* Build configuration list for PBXNativeTarget "W07_Srivalli_KanchibotlaTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +538,7 @@
 				4E2813FB1DB1796E0037DE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2813FC1DB1796E0037DE59 /* Build configuration list for PBXNativeTarget "W07_Srivalli_KanchibotlaUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +547,7 @@
 				4E2813FE1DB1796E0037DE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
